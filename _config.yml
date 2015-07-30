@@ -1,0 +1,11 @@
+auto: true
+
+markdown: rdiscount
+pygments: true
+paginate: 8
+permalink: /:title
+
+title: xff2016.club
+url: http://xff2016.club
+feed: /atom.xml
+author_info: <a href="http://xff2016.club/">BuptXff</a>
