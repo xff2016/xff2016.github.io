@@ -9,4 +9,4 @@ category: blog
 
 
 
-[BeiYuu]:    http://beiyuu.com  "XFF-BUPT"
+[XFF-BUPT]:    http://XFF-BUPT.com  "XFF-BUPT"
