@@ -45,16 +45,12 @@ description: 胡言乱语而已，看看就好。
 
 ##TL;DR
 错过这篇废话而无用的文章，你是赚到啦！
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'x-flowing';
-    $('#disqus_container .comment').on('click',function(){
-            $(this).html('加载中...');
-            var disqus_shortname = 'beiyuu';
-            var that = this;
-            BYB.includeScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()}); //这是一个加载js的函数
-    });
+    
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
