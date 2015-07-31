@@ -8,5 +8,5 @@ description: jQuery是一个伟大作品，他的完成充满智慧，我们来�
 2015-07-30 By {{ site.author_info }}
 
 
-[XFF-BUPT]:    http://XFF-BUPT.com  "XFF-BUPT"
+[X-Flowing]:    http://xff2016.club  "X-Flowing"
 [1]:    {{ page.url}}  ({{ page.title }})

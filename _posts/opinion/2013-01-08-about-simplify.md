@@ -49,7 +49,7 @@ description: 胡言乱语而已，看看就好。
 
 
 
-[XFF-BUPT]:    http://XFF-BUPT.com  "XFF-BUPT"
+[X-Flowing]:    http://xff2016.club  "X-Flowing"
 [1]:    {{ page.url}}  ({{ page.title }})
 [2]: http://movie.douban.com/subject/3821067/
 [3]: http://movie.douban.com/subject/1291557/
