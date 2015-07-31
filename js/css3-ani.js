@@ -1,3 +1,4 @@
+/// <reference path="../typings/jquery/jquery.d.ts"/>
 $(function(){
 
     $('#cardflip').click(function(){
