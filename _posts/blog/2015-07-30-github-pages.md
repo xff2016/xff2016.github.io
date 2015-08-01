@@ -37,13 +37,14 @@ mininet作为一个轻量级软定义网络研发和测试平台，其主要特�
 安装虚拟机和Ubuntu的过程不是实验重点，不再赘述。安装mininet采用了本地安装Mininet源代码的方式：  
 
 【获取源代码】
-    $git clone git://github.com/mininet/mininet  
+    $ git clone git://github.com/mininet/mininet  
  
 【安装所有工具，包括OpenvSwitch、Wireshark、POX】
-    $mininet/util/install.sh –a  
+    $ mininet/util/install.sh –a  
 
    由于采用了安装所有工具的方法，因此省去了单独安装POX控制器的步骤.
-    $sudo mn  
+    $ sudo mn  
+    
    默认拓扑测试后验证安装成功。
 ![sudomn success](/images/sdn/sudomn success.png)
 ## 搭建自定义拓扑
@@ -70,19 +71,26 @@ mininet作为一个轻量级软定义网络研发和测试平台，其主要特�
 ![failconnect](/images/sdn/failconnect.png)
 且pox控制台会不停输出错误信息：
 ![errinfo](/images/sdn/errinfo.png)
-通过查资料了解到POX中的openflow.spanning_tree组件可以解决这个问题:该组件使用discovery组件来创建网络拓扑的视图，构造一棵生成树，然后使不在生成树中的交换机端口的洪泛功能失效，使得网络中不存在洪泛回路。虽然提到了生成树，但是该组件同生成树协议几乎没有关系，只是有相似的目的。要使用的两个选项的意义如下：
-    $--no-flood
-   只要交换机连接上了就使该交换机的所有端口洪泛失效，对于某些端口，稍后将使能。
-    $--hold-down
+通过查资料了解到POX中的openflow.spanning_tree组件可以解决这个问题:该组件使用discovery组件来创建网络拓扑的视图，构造一棵生成树，然后使不在生成树中的交换机端口的洪泛功能失效，使得网络中不存在洪泛回路。虽然提到了生成树，但是该组件同生成树协议几乎没有关系，只是有相似的目的。要使用的两个选项的意义如下：  
+
+    $ --no-flood  
+    
+   只要交换机连接上了就使该交换机的所有端口洪泛失效，对于某些端口，稍后将使能。  
+   
+    $ --hold-down  
+    
    防止洪泛控制在一个完整的发现回路完成前被改变
-因此输入以下命令使用该组件能在一定程度上抑制广播风暴。
-    $ openflow.spanning_tree --no-flood --hold-down 
+因此输入以下命令使用该组件能在一定程度上抑制广播风暴。  
+
+    $ openflow.spanning_tree --no-flood --hold-down   
+    
 ### 2.开启POX：
 ![startpox](/images/sdn/startpox.png)
 注释：<ul>
       <li>l2_learning属于forwarding组件包，使得OpenFlow交换机的行为如同一个二层的具有自学习功能的交换机该组件，实现 L2链路层上的地址学习。</li>
-      <li>openflow.of_01组件的功能是是同openflow 1.0协议版本的交换机进行通讯，默认启动。
-        $--port=6666指定该POX端口为6666。</li>
+      <li>openflow.of_01组件的功能是是同openflow 1.0协议版本的交换机进行通讯，默认启动。  
+      
+    $ --port=6666指定该POX端口为6666。</li>
       <li>spanning_tree组件依赖discovery组件，，同属OpenFlow组件包。</li>
    </ul>
    
@@ -125,11 +133,6 @@ h1和h4指定带宽udp测试结果：
 [Milestone]:  http://www.muzixing.com "Milestone"
 [SDNLAB]:  http://www.sdnlab.com/ "SDNLAB"
 [SDN创新实验平台]:http://fnlab.org/"SDN创新实验平台"
-[Github Pages]: http://pages.github.com/ "Github Pages"
-[Godaddy]:  http://www.godaddy.com/ "Godaddy"
-[Jekyll]:   https://github.com/mojombo/jekyll "Jekyll"
-[DNSPod]:   https://www.dnspod.cn/ "DNSPod"
 [Disqus]: http://disqus.com/
-[多说]: http://duoshuo.com/
 [1]:    {{ page.url}}  ({{ page.title }})
 
