@@ -29,10 +29,10 @@ mininet作为一个轻量级软定义网络研发和测试平台，其主要特�
 
 ---  
 
-##要完成的目标
+##一、要完成的目标
 用mininet搭建一个有环网络，使用Pox控制器实现网络中主机互相通信（避免环路影响）。
 ![item](/images/sdn/item.png)
-## 配置和使用Mininet
+##二、配置和使用Mininet
 考虑到mininet虚拟实验只需要在一台电脑上运行即可，所以没有选择[SDN创新实验平台]来做，而是在自己电脑上通过装Vmware Workstation+Ubuntu+Mininet+Pox的方式进行实验，这样也方便修改拓扑结构的源码或自定义拓扑。
 安装虚拟机和Ubuntu的过程不是实验重点，不再赘述。安装mininet采用了本地安装Mininet源代码的方式：  
 
@@ -54,7 +54,7 @@ mininet作为一个轻量级软定义网络研发和测试平台，其主要特�
 ![custom](/images/sdn/custom.png)
   自定义拓扑MyRingTopo.py的文件代码如下：
   ![topo](/images/sdn/topo.png)
-## 开启Mininet和POX控制器进行测试
+##三、开启Mininet和POX控制器进行测试
 实验要求实现网络中主机互相通信（避免环路影响），在做实验前经过查资料了解到环路广播风暴，如果有环路，数据帧将会在环路中来回传递，大量增生数据帧，形成广播风暴，从而导致正常的通信过程不能继续。在SDN中部分控制器可以抑制环路广播风暴的产生，如Floodlight，而像POX控制器，不能很好的解决广播风暴的问题，但对于本次实验的简单拓扑依然可以解决。
 环路通信常常是在现实环境下出于对通信稳定的保障而设置的备用连线，确有其实用价值，在物理拓扑上必不可少，逻辑上则要采取控制来抑制由于环路导致的可能出现的广播风暴等问题。而mininet本身只是一个虚拟网络仿真工具，并不能对出现的环路广播风暴等问题进行控制，因此需要相应的控制器添加处理规则等方式来确保环路通信的正常运转。
 ### 1.开启自定义拓扑：
@@ -111,13 +111,19 @@ h1和h4指定带宽udp测试结果：
 
 ---  
 
-##结语
+##四、结语
   在解决环状拓扑广播风暴的问题上，刚开始只是知道广播风暴形成的原因，却不知道怎么解决。后来对POX的组件和功能进行了仔细的了解，找出了相应的解决办法。不过POX的操作比起Mininet的操作相对麻烦些，期间好多次操作错误后一遍又一遍的重启控制器。
 环状拓扑仿真对网络拓扑的理解要求更高，并且利用到了Mininet和POX控制器。
 操作期间参考了黄韬等老师编著的[《软件定义网络-核心原理与应用实践》]、[Milestone]和[SDNLAB]上的资料，在此表示感谢。  
 
   如果你跟着这篇不那么详尽的教程，成功搭建了Mininet环境并进行了环形网络拓扑仿真，恭喜你！剩下的就是保持热情去研究吧。  
-   (function() {
+ <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'x-flowing';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
