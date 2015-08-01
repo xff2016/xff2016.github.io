@@ -9,3 +9,7 @@ title: xff2016.club
 url: http://xff2016.club
 feed: /atom.xml
 author_info: <a href="http://xff2016.club/">X-Flowing</a>
+#comment config
+disqus:
+  config: false
+  id: x-flowing
