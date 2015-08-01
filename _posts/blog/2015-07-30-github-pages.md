@@ -90,7 +90,7 @@ mininet作为一个轻量级软定义网络研发和测试平台，其主要特�
       
     $ --port=6666指定该POX端口为6666。  
     
-    <li>spanning_tree组件依赖discovery组件，同属OpenFlow组件包。</li>
+   <li>spanning_tree组件依赖discovery组件，同属OpenFlow组件包。</li>
    </ul>
    
 ### 3.进行测试：
