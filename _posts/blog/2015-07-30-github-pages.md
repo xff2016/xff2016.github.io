@@ -27,17 +27,21 @@ mininet作为一个轻量级软定义网络研发和测试平台，其主要特�
 
 大致介绍到此，对于资源比较短缺又想设计模拟真实网络拓扑的人员来说，Mininet确实是一个比较不错的选择。
 
----
+---  
+
 ##要完成的目标
 用mininet搭建一个有环网络，使用Pox控制器实现网络中主机互相通信（避免环路影响）。
 ![item](/images/sdn/item.png)
 ## 配置和使用Mininet
 考虑到mininet虚拟实验只需要在一台电脑上运行即可，所以没有选择[SDN创新实验平台]来做，而是在自己电脑上通过装Vmware Workstation+Ubuntu+Mininet+Pox的方式进行实验，这样也方便修改拓扑结构的源码或自定义拓扑。
-安装虚拟机和Ubuntu的过程不是实验重点，不再赘述。安装mininet采用了本地安装Mininet源代码的方式：
-    $ git clone git://github.com/mininet/mininet  
-   【获取源代码】
-    $ mininet/util/install.sh –a  
-   【安装所有工具，包括OpenvSwitch、Wireshark、POX】
+安装虚拟机和Ubuntu的过程不是实验重点，不再赘述。安装mininet采用了本地安装Mininet源代码的方式：  
+
+【获取源代码】
+    $git clone git://github.com/mininet/mininet  
+ 
+【安装所有工具，包括OpenvSwitch、Wireshark、POX】
+    $mininet/util/install.sh –a  
+
    由于采用了安装所有工具的方法，因此省去了单独安装POX控制器的步骤.
     $sudo mn  
    默认拓扑测试后验证安装成功。
@@ -97,12 +101,24 @@ h1和h4指定带宽udp测试结果：
 关闭Mininet时POX控制台输出：
 ![exitpox](/images/sdn/exitpox.png)
 
----
+---  
+
 ##结语
-在解决环状拓扑广播风暴的问题上，刚开始只是知道广播风暴形成的原因，却不知道怎么解决。后来对POX的组件和功能进行了仔细的了解，找出了相应的解决办法。不过POX的操作比起Mininet的操作相对麻烦些，期间好多次操作错误后一遍又一遍的重启控制器。
+  在解决环状拓扑广播风暴的问题上，刚开始只是知道广播风暴形成的原因，却不知道怎么解决。后来对POX的组件和功能进行了仔细的了解，找出了相应的解决办法。不过POX的操作比起Mininet的操作相对麻烦些，期间好多次操作错误后一遍又一遍的重启控制器。
 环状拓扑仿真对网络拓扑的理解要求更高，并且利用到了Mininet和POX控制器。
-操作期间参考了黄韬等老师编著的[《软件定义网络-核心原理与应用实践》]、[Milestone]和[SDNLAB]上的资料，在此表示感谢。
-如果你跟着这篇不那么详尽的教程，成功搭建了Mininet环境并进行了环形网络拓扑仿真，恭喜你！剩下的就是保持热情去研究吧。
+操作期间参考了黄韬等老师编著的[《软件定义网络-核心原理与应用实践》]、[Milestone]和[SDNLAB]上的资料，在此表示感谢。  
+
+  如果你跟着这篇不那么详尽的教程，成功搭建了Mininet环境并进行了环形网络拓扑仿真，恭喜你！剩下的就是保持热情去研究吧。  
+   (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
 [X-Flowing]: http://xff2016.club  "X-Flowing"
 [Mininet]:   http://mininet.org/ "Mininet"
 [《软件定义网络-核心原理与应用实践》]:http://book.douban.com/subject/26184169/ "《软件定义网络-核心原理与应用实践》"
