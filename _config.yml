@@ -1,12 +1,46 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+# Conversion
+markdown:     rdiscount
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
 auto: true
 
-markdown: rdiscount
 pygments: true
 paginate: 8
 permalink: /:title
 
-title: xff2016.club
+#Site config
+title: 雪纷飞-Flowing
+description: 是大地的泪点，使她的微笑保持着青春不谢。 
 url: http://xff2016.club
 feed: /atom.xml
+#Author config
+author:
+    name: X-Flowing
+    email: bupt2016@126.com
+    imageLink: 
+    simpleIntro: 我是雪纷飞
+    detailIntro:
 author_info: <a href="http://xff2016.club/">X-Flowing</a>
 #comment config
