@@ -1,3 +1,6 @@
+---
+layout: post
+---
 #About me
 Last update: 2015/7/30
 #Wei Liu
