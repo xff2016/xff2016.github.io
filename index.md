@@ -6,9 +6,9 @@ layout: home
     <div class="section">
         <ul class="artical-cate">
             <li class="on"><a href="/"><span>Blog</span></a></li>
-            <li style="text-align:center"><a href="/opinion"><span>Opinion</span></a></li>
-            <li style="text-align:center"><a href="/new"><span>Opinion</span></a></li>
-            <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
+            <li style="margin-left:-6px"><a href="/opinion"><span>Opinion</span></a></li>
+            <li style="margin-left:-2px"><a href="/new"><span>New</span></a></li>
+            <li style="margin-right:-6px"><a href="/project"><span>Project</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
