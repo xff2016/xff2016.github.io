@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 逐渐挖掘Enhanced for Loop
-category: blog
-description: 2015-12-31 
-J2SE 1.5提供了另一种形式的for循环。借助这种形式的for循环，可以用更简单地方式来遍历数组和Collection等类型的对象。
+category: wiki
+description: 2015-12-31  J2SE 1.5提供了另一种形式的for循环。借助这种形式的for循环，可以用更简单地方式来遍历数组和Collection等类型的对象。
 ---
 
 
