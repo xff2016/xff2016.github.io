@@ -7,7 +7,7 @@ School of Information and Communication Engineering (SICE)
   
 Beijing University of Posts and Telecommunications (BUPT)
 
-Email:bupt2016@126.com
+Email:liuwei201607@gmail.com
 
 Github: https://github.com/xff2016
 
@@ -30,7 +30,7 @@ Freshman of Graduate Student
 * Programming language: Java(70), C／C++(20%), Python(10%).
 * System: Linux (Familiar with Ubuntu)
 * Languages:
-       * Major:  Chinese  
+     * Major:  Chinese  
 	   * Second: English
 * Familiar with TCP/IP, OpenFlow protocol, SDN.
 
@@ -48,7 +48,7 @@ Freshman of Graduate Student
 #刘威
 北京邮电大学•信息与通信工程学院•通信工程
 
-Email:bupt2016@126.com
+Email:liuwei201607@gmail.com
 
 Github: https://github.com/xff2016
 
@@ -56,7 +56,7 @@ Homepage:http://xff2016.club
 
 ---
 #教育经历
-* 大学本科（2012.9至今）
+* 大学本科（2012.9-2016-7）
 
     北京邮电大学 信息与通信工程学院 通信工程  
 
@@ -71,7 +71,7 @@ Homepage:http://xff2016.club
 
 #社会实践
 #兴趣爱好
-编程，即兴表演，篮球，摄影，跳舞。
+编程，篮球，摄影，跳舞。
 
 ---
 * My Blog Designed by BeiYuu
