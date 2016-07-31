@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      大四匆忙面试的遗憾与成长
 category: opinion
