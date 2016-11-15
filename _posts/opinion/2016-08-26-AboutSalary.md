@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     qqpost
 title:      关于实习工资的那点事
 category: opinion
 description: 2016-08-26 培训一个多月后终于发了第一笔比较正式的工资，至于感觉，只能说痛并快乐着吧。
