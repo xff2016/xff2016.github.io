@@ -5,10 +5,11 @@ layout: home
 <div class="index-content blog">
     <div class="section">
         <ul class="artical-cate">
-            <li class="on"><a href="/"><span>Work</span></a></li>
-            <li style="text-align:center"><a href="/opinion"><span>Opinion</span></a></li>
-            <li style="text-align:center"><a href="/wiki"><span>Wiki</span></a></li>
-            <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
+            <li class="on"><a href="/"><span>笔记</span></a></li>
+            <li style="text-align:center"><a href="/opinion"><span>随笔</span></a></li>
+            <li style="text-align:center"><a href="/wiki"><span>框架</span></a></li>
+            <li style="text-align:center"><a href="/wiki"><span>Css</span></a></li>
+            <li style="text-align:right"><a href="/project"><span>翻译</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
