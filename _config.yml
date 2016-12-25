@@ -19,6 +19,7 @@ limit_posts:  0
 future:       true
 unpublished:  false
 # Conversion
+markdown:     rdiscount
 highlighter:  pygments
 lsi:          false
 excerpt_separator: "\n\n"

@@ -4,10 +4,11 @@ layout: home
 
 <div class="index-content wiki">
     <div class="section">
-            <li style="text-align:left"><a href="/"><span>笔记</span></a></li>
-            <li style="text-align:center"><a href="/opinion"><span>随笔</span></a></li>
-            <li class="on" style="text-align:center"><a href="/framework"><span>框架</span></a></li>
-            <li style="text-align:right"><a href="/translate"><span>翻译</span></a></li>
+        <ul class="artical-cate">
+            <li><a href="/"><span>Work</span></a></li>
+            <li style="text-align:center"><a href="/opinion"><span>Opinion</span></a></li>
+            <li class="on" style="text-align:center"><a href="/wiki"><span>Wiki</span></a></li>
+            <li style="text-align:right"><a href="/project"><span>Project</span></a></li>
         </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
