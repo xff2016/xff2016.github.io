@@ -1,7 +1,6 @@
 ---
 layout: home
 ---
-
 <div class="index-content opinion">
     <div class="section">
         <ul class="artical-cate">
@@ -10,19 +9,13 @@ layout: home
             <li style="text-align:center"><a href="/framework"><span>框架</span></a></li>
             <li style="text-align:right"><a href="/translate"><span>翻译</span></a></li>
         </ul>
-
-        <div class="cate-bar"><span id="cateBar"></span></div>
-
-        <ul class="artical-list">
-        {% for post in site.categories.opinion %}
+    <div class="cate-bar"><span id="cateBar"></span></div>
+         <ul class="artical-list">{% for post in site.categories.opinion %}
             <li>
-                <h2>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </h2>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <div class="title-desc">{{ post.description }}</div>
-                <p class="entry-date">{{ post.date|date:"%Y-%m-%d" }}</p>
-            </li>
-        {% endfor %}
+                <div class="entry-date">{{ post.date|date:"%Y-%m-%d" }}</div>
+            </li> {% endfor %}
         </ul>
     </div>
     <div class="aside">
