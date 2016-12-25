@@ -14,12 +14,13 @@ layout: home
         <div class="cate-bar"><span id="cateBar"></span></div>
 
         <ul class="artical-list">
-        {% for post in site.categories.wiki %}
+        {% for post in site.categories.framework%}
             <li>
                 <h2>
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
-                <div class="title-desc">{{ post.description }}</div>
+                <div class="title-desc">{{ post. }}</div>
+                <div class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</div>
             </li>
         {% endfor %}
         </ul>

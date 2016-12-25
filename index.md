@@ -4,7 +4,7 @@ layout: home
 
 <div class="index-content blog">
     <div class="section">
-        <ul class="artical-cate row">
+        <ul class="artical-cate">
             <li class="on" style="text-align:left"><a href="/"><span>笔记</span></a></li>
             <li style="text-align:center"><a href="/opinion"><span>随笔</span></a></li>
             <li style="text-align:center"><a href="/framework"><span>框架</span></a></li>
