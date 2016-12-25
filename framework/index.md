@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="index-content wiki">
+<div class="index-content framework">
     <div class="section">
     <ul class="artical-cate">
             <li style="text-align:left"><a href="/"><span>笔记</span></a></li>
@@ -20,7 +20,6 @@ layout: home
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
                 <div class="title-desc">{{ post. }}</div>
-                <div class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</div>
             </li>
         {% endfor %}
         </ul>
