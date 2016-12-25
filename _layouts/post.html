@@ -25,30 +25,30 @@ layout: default
     </div>
 
     <div class="sidenav">
-        <h2>Blog</h2>
+        <h2>笔记</h2>
         <ul class="artical-list">
-        {% for post in site.categories.work%}
+        {% for post in site.categories.notes%}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
 
-        <h2>Opinion</h2>
+        <h2>随笔</h2>
         <ul class="artical-list">
         {% for post in site.categories.opinion%}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
 
-        <h2>Wiki</h2>
+        <h2>框架</h2>
         <ul class="artical-list">
-        {% for post in site.categories.Wiki%}
+        {% for post in site.categories.framework%}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
         
-        <h2>Project</h2>
+        <h2>翻译</h2>
         <ul class="artical-list">
-        {% for post in site.categories.project%}
+        {% for post in site.categories.translate%}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
