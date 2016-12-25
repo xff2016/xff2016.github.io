@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-    * Author:         X-Flowing
-    -->
     <meta property="wb:webmaster" content="4e059d115513f709" />
     <meta charset="utf-8" />
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
@@ -37,13 +34,12 @@
         $(function(){
             $('.home-follow').click(function(e){
                 e.preventDefault();
-
                 if($('.home-contact').is(':visible')){
                     $('.home-contact').slideUp(100);
                 }else{
                     $('.home-contact').slideDown(100);
-                }
-            });
+                    }
+                });
         })
     </script>
 </body>
