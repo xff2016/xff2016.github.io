@@ -1,77 +1,42 @@
-#About me
-Last update: 2016/7/20
-#Wei Liu
-Communication Engineering
+# 3-Jekyll Theme
 
-School of Information and Communication Engineering (SICE)
-  
-Beijing University of Posts and Telecommunications (BUPT)
+新版 3-Jekyll，当前完成度 80%，预览请访问 [http://peiwen.lu](http://peiwen.lu)，[Github repo](https://github.com/P233/P233.github.io)。
 
-Email:liuwei201607@gmail.com
+旧版请在 [https://github.com/P233/3-Jekyll/releases](https://github.com/P233/3-Jekyll/releases) 下载。
 
-Github: https://github.com/xff2016
 
-Homepage:http://xff2016.club  
+## 针对旧版的改进
 
----
-#Education background
+* 侧边栏使用 Tag 或 Category 做为文章分类，默认 Tag。
+* 自动生成侧边栏分类标签，基本不需要修改模板文件。但标签顺序由 Jekyll 根据时间顺序生成，需要手动调整顺序只能修改 `_includes/sidebar.html`，格式是 `<li class="sidebar-tag" data-filter="TAG">TAG</li>`，替换 `TAG`，大小写敏感。
+* 更加全面的 Sass 变量，方便个性化主题样式。
+* 暂定取消文章的标题目录。
+* 取消了嵌入 Codepen。
 
-Communication Engineering
 
-School of Information and Communication Engineering (SICE)
+## TODO
 
-Beijing University of Posts and Telecommunications (BUPT)
+* 搜索功能
+* Webkit 换页动画
+* 改进文章筛选动画
+* <del>集成 Google Analytics</del>
+* 文章时间，Category，Tag 归档页面
+* Favicon
+* Mobile touch swipe
 
-Freshman of Graduate Student
-#Internship
-*
-*
-#Skills
-* Programming language: Java(70), C／C++(20%), Python(10%).
-* System: Linux (Familiar with Ubuntu)
-* Languages:
-     * Major:  Chinese  
-	   * Second: English
-* Familiar with TCP/IP, OpenFlow protocol, SDN.
+其他建议欢迎[提交 issue](https://github.com/P233/3-Jekyll/issues/new)
 
-#Project Experience
-#Additional Skills    
-  * Leadership
-  * Teamwork  
 
-#Hobbies
-   * Programming
-   * Improvisational theater
-   * Table tennis
-   * Photography
----
-#刘威
-北京邮电大学•信息与通信工程学院•通信工程
+## 使用
 
-Email:liuwei201607@gmail.com
+### 设置 `_config.yml`
 
-Github: https://github.com/xff2016
+`_config.yml` 除基本的站点设置外，新加入了社交链接与评论设置。将需要添加的社交帐号填入对应设置，并取消注释，会在头像下方增加一条社交帐号的链接。支持 Twitter, Weibo, Github, Codepen 以及 Dribbble。此外，填入 Disqus 的 shortname 也会启用 Disqus 评论。 `filter` 选项选择使用 `tag` 或 `category` 作为文章分类。
 
-Homepage:http://xff2016.club
+### 修改样式
 
----
-#教育经历
-* 大学本科（2012.9-2016-7）
+样式相关的 Sass 变量都存储在 `/css/main.sass` 文件中，修改这个文件可以满足大部分样式定制的需求。建议首先修改 `$gradient-start` 与 `$gradient-end` 两个变量，给自己的博客使用独一无二的侧边栏背景。
 
-    北京邮电大学 信息与通信工程学院 通信工程  
+### 替换图片
 
-# 实习经历  
-# 项目经历
-# 所获奖励
-#个人技能
-
-   * 编程语言：Java(70%),C/C++(20%)，Python(10%)。
-   * 熟悉操作系统运行过程，熟悉Linux系统。
-   * 通过CET-6，英文文档阅读能力和演讲能力良好,口语流畅。
-
-#社会实践
-#兴趣爱好
-编程，篮球，摄影，跳舞。
-
----
-* My Blog Designed by BeiYuu
+请不要忘记替换 `/assets/img/` 内的图片。`avatar.jpg` 是侧边栏头像的图片，`qrcode.jpg` 会在提示浏览器不兼容时使用。[QR Code 生成器](https://www.unitag.io/qrcode)
