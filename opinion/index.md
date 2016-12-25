@@ -14,7 +14,7 @@ layout: home
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <div class="title-desc">{{ post.description }}</div>
-                <div class="entry-date">{{ post.date|date:"%Y-%m-%d" }}</div>
+                <div class="entry-date">{{ post.date | date_to_string }}</div>
             </li> {% endfor %}
         </ul>
     </div>

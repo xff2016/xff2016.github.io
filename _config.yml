@@ -24,7 +24,7 @@ excerpt_separator: "\n\n"
 
 auto: true
 
-pygments: true
+pygments: false
 paginate: 8
 permalink: /:title
 
@@ -40,5 +40,5 @@ author:
     imageLink: 
     simpleIntro: 我是雪纷飞
     detailIntro:
-author_info: <a href="http://xff2016.club/">X-Flowing</a>
+author_info: <a href="http://xff2016.top/">X-Flowing</a>
 #comment config
