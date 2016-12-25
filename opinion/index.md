@@ -20,6 +20,7 @@ layout: home
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
                 <div class="title-desc">{{ post.description }}</div>
+                <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }}</p>
             </li>
         {% endfor %}
         </ul>
