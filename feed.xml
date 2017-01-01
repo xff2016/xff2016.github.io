@@ -3,11 +3,104 @@
   <channel>
     <title>X-Flowing | 雪纷飞</title>
     <description>是大地的泪点，使她的微笑保持着青春不谢。</description>
-    <link>http://xff2016.top/</link>
-    <atom:link href="http://xff2016.top/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Dec 2016 01:47:41 +0800</pubDate>
-    <lastBuildDate>Wed, 28 Dec 2016 01:47:41 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 01 Jan 2017 23:53:08 +0800</pubDate>
+    <lastBuildDate>Sun, 01 Jan 2017 23:53:08 +0800</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>时间的朋友</title>
+        <description>&lt;h2 id=&quot;前言&quot;&gt;前言：&lt;/h2&gt;
+&lt;p&gt;不知从什么时候开始，小时候期待过节的那份喜悦与激动渐渐消散。
+大概是没有了儿时的青涩，多了些责任的鞭策。
+年年岁岁花相似，岁岁年年人不同。2016年是自己人生中比较独特的一年：太多太多的机遇与转折出现，
+也有太多太多的选择与错过出现。考研，找工作，签约，培训，工作……渐渐地从急躁变得安宁，从
+慌乱变得安逸。只是朋友，你可以选择停下人生的脚步，可是时间却不会停下脚步，你又作何应对呢？&lt;/p&gt;
+
+&lt;h2 id=&quot;大环境中的2016&quot;&gt;大环境中的2016&lt;/h2&gt;
+&lt;p&gt;细细数来，今年是第二次伴着罗胖《时间的朋友》演讲活动跨年的，不，用他的话说是倒数第19次^_^
+抛开其中夹杂的商业因素不谈，就演讲本身切入话题与事件的角度讲，是超出自己视野的。&lt;/p&gt;
+
+&lt;p&gt;首先是创业环境。大众创业，万众创新的节奏激发出一批又批创业勇士。不去想政策因素，就其对行业的发展来说，
+总体是促进作用的。估值高了，泡沫大了，自然会出现资本寒冬。可是，专家口中的L型经济想想并不是所有的行业
+都变得如此，到底是环境不好还是方法错了？你说实体经济不行了，可是BAT的发展越来越好是为什么？借用马云的话
+来说，不是实体经济不行了，而是你家的实体经济不行了。宏观政策的影响是有的，但也是所有人共同面临和必须适应的；
+而微观世界踩死我们更加需要关注的，是真真切切影响我们自身发展的关键因素。&lt;/p&gt;
+
+&lt;p&gt;这里就不得不提之前看到易到的例子，
+专车市场最早的开创者-程维。内心深处对政策的恐惧和对中国创业环境的判断失误导致最终错过了这场盛宴，不能说失败，
+但留下的遗憾却是再也找不回来的。中国目前的环境下，类似小马过河的经历还会不断地出现。滴滴等网约车在这场产品
+与政策的探索磨合中最终找到了合适的切入方向，赢得了赛跑。创业本身就是跌落悬崖的自救，没有勇气与担当，
+又怎能迈的出步子，撒的了大网捕大鱼呢？
+伴随着互联网人口红利的结束，手机市场已经基本饱和，该有的都有了，该装的也都装了。那么，下一步，如何让
+用户停留在自己的产品上便是现阶段互联网公司思考的问题。BAT使用互联网行业不到3%的劳动力，创造出这个行业
+接近50%的市场价值，已经牢牢把握住市场的各个关隘。一个新的产品，没有背景下，更多的考虑现在，而不是像
+大公司一样处处考虑未来。你没有时间，也耗不起。时间是商业的终极战场，谁最终为用户节省时间或者占领用户时间，
+谁便是最终的赢家。仔细回想发现，消费升级的结果是从炫耀品变为体验品。想想自己过去一年的朋友圈，是炫耀的
+成分变多了，还是在实际生活中不断提升自己的体验，让自己为之感动的变多了呢？想必你心中已早有答案。&lt;/p&gt;
+
+&lt;p&gt;其次是人工智能。如果你的优势是领导力和创造力，而不是依赖于技术上的，那么就会暂时不会被人工智能所淹没。
+进步是好的，更好地是缓慢的进步。但过去一年人工智能领域过快的进步在进一步拉低整个行业门槛的同时，也让
+我们深深感受到了不安。看完阿尔法go的比赛，你会笃定未来一段时期内自己就不会有被人工智能替代的风险？
+所以未来该做点什么，不该做点什么，我想你大致已经心中有了方向。&lt;/p&gt;
+
+&lt;p&gt;最后是数据分析。背景变了，以前对的现在可能就不对了。每个人在自己诗和远方的道路上越来越远，
+于是文化的分化越来越多，各类事务正在分类，聚集，分散。当你乘坐地铁时，你可能越来越多的关注自己微信群里的
+消息，而不是和你同乘地铁的同行者；当你观看视频时，你可能就只会聚焦某个频道，而对其他一无所知。
+互联网的出现使得人们对于事物有了可以选择或者拒绝的权利，然而正是这种选择使得人们的关注越来越分散，
+共同认知的交集也越来越少，变得一地鸡毛。要知道，否定问题是解决问题的最好办法。互联网时代可以拉黑，
+有些事情就被隐藏了。这时候你通过公众舆论得出的结论越来越不全面，要不特朗普上台会让人感觉神奇吗？&lt;/p&gt;
+
+&lt;h2 id=&quot;我的2016&quot;&gt;我的2016&lt;/h2&gt;
+
+&lt;p&gt;我们使用时间的方式就是我们塑造自己的方式
+不要谈什么愿望，实际怎么使用才是真理&lt;/p&gt;
+
+&lt;h2 id=&quot;展望2017&quot;&gt;展望2017&lt;/h2&gt;
+</description>
+        <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/opinion/2017/01/01/new-year.html</link>
+        <guid isPermaLink="true">http://localhost:4000/opinion/2017/01/01/new-year.html</guid>
+        
+        <category>随笔</category>
+        
+        
+        <category>opinion</category>
+        
+      </item>
+    
+      <item>
+        <title>以传承促发展，共奋斗筑未来</title>
+        <description>&lt;h2 id=&quot;前言&quot;&gt;前言：&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;不知从什么时候开始，我们已经无法像孩子一样，肆意大笑。我们急于抵达终点，却忽略了沿途的美丽风景，连出发的起点和初衷，也忘记了。最后恍然大悟，无论是一个人走，还是结伴同行，都要将纯真和热爱装进行囊，才能不辜负明月与骄阳。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;光阴荏苒，岁月如梭。时间眨了下眼睛，往昔学生时代的欢声笑语已化作回忆，随之而来的是天研工作的点点滴滴。半年的时光，无论对于自己还是对于天研，一切都是从零开始，一切却又那么令人值得期待。&lt;/p&gt;
+
+&lt;h2 id=&quot;传承扬起前进风帆&quot;&gt;传承扬起前进风帆&lt;/h2&gt;
+
+&lt;p&gt;从最初的业务培训、客服实习，到环境搭建、代码调试，到代码评审、修复漏洞，再到投产运行、技能转移。每一个环节都见证着我们新人的成长，每一份成绩又都蕴含着中心领导的关怀与老员工的谆谆教诲：初入职场的我们不懂业务，于是我们参加了客服实习与电商业务培训；不明确项目管理流程，于是质量管理部的同事为我们耐心解答项目管理中的具体流程；不懂开发编码规范，于是老员工为我们讲代码、明要求、传经验；不懂测试的必要性，于是测试人员为我们介绍自动化测试工具来为开发迭代节省时间；不懂投产部署知识，于是老员工用讲解和实际操作在投产间完成了一次又一次投产任务；不懂行内专有名词和已有系统的对接工作，于是老员工用多年的工作经验与人际关系不断地为我们寻找资源，为项目开发助力。&lt;/p&gt;
+
+&lt;p&gt;正如之前中心所提倡的代表坚定、踏实与精益求精的工匠精神：工匠不一定都能成为佼佼者，但是每一个佼佼者的身上都有这种“工匠精神”。正是软开中心无数前辈们的脚踏实地与辛勤努力，让我们这些职场新人学会耐心、专注和坚持，守得云开见月明。&lt;/p&gt;
+
+&lt;h2 id=&quot;奋斗共筑美好未来&quot;&gt;奋斗共筑美好未来&lt;/h2&gt;
+
+&lt;p&gt;客服中心外大雪纷飞，电脑工位旁斗志昂扬。半年的工作任务中，除了让我对.Net MVC框架不断了解，也对电商平台中的集团采购业务有了更深入的理解。完整的项目开发经历，自由活跃的工作氛围，充满温馨的天研大家庭，让我逐渐从新入职的迷茫中找到自己前进的方向，完成从学生到职员的转变。当然，在转变过程中也逐渐发现自己的很多不足，未来的工作仍然需要自己不断学习，不断在实践中成长。在金融企业的科技部门工作，于是做一个懂金融的IT人便也是我们不断努力的另一个方向：既要懂技术，又要懂业务。&lt;/p&gt;
+
+&lt;p&gt;工匠对职业的尊重，对专业精神的敬畏，对技艺的传承，无一不体现出对自然的热爱，那是心中深远处的理念支撑。新的平台拥有无限的潜力，未来的发展依然需要大家的共同努力。天研在起步，技艺在传承，我们共奋斗，未来不是梦！&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Dec 2016 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/opinion/2016/12/26/why-abc-ty.html</link>
+        <guid isPermaLink="true">http://localhost:4000/opinion/2016/12/26/why-abc-ty.html</guid>
+        
+        <category>随笔，总结</category>
+        
+        
+        <category>opinion</category>
+        
+      </item>
     
       <item>
         <title>广、深、高、速</title>
@@ -34,8 +127,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 03 Sep 2016 17:21:49 +0800</pubDate>
-        <link>http://xff2016.top/jekyll/update/2016/09/03/Always-in-BUPT.html</link>
-        <guid isPermaLink="true">http://xff2016.top/jekyll/update/2016/09/03/Always-in-BUPT.html</guid>
+        <link>http://localhost:4000/jekyll/update/2016/09/03/Always-in-BUPT.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/09/03/Always-in-BUPT.html</guid>
         
         <category>随笔</category>
         
@@ -161,8 +254,8 @@
 
 </description>
         <pubDate>Sat, 27 Aug 2016 06:21:49 +0800</pubDate>
-        <link>http://xff2016.top/opinion/2016/08/27/About-Work-Salary.html</link>
-        <guid isPermaLink="true">http://xff2016.top/opinion/2016/08/27/About-Work-Salary.html</guid>
+        <link>http://localhost:4000/opinion/2016/08/27/About-Work-Salary.html</link>
+        <guid isPermaLink="true">http://localhost:4000/opinion/2016/08/27/About-Work-Salary.html</guid>
         
         <category>随笔</category>
         
@@ -190,8 +283,8 @@
 
 </description>
         <pubDate>Wed, 25 May 2016 00:00:00 +0800</pubDate>
-        <link>http://xff2016.top/opinion/2016/05/25/Find-Job-Summmarized.html</link>
-        <guid isPermaLink="true">http://xff2016.top/opinion/2016/05/25/Find-Job-Summmarized.html</guid>
+        <link>http://localhost:4000/opinion/2016/05/25/Find-Job-Summmarized.html</link>
+        <guid isPermaLink="true">http://localhost:4000/opinion/2016/05/25/Find-Job-Summmarized.html</guid>
         
         <category>随笔</category>
         
@@ -205,8 +298,8 @@
         <description>
 </description>
         <pubDate>Thu, 31 Dec 2015 00:00:00 +0800</pubDate>
-        <link>http://xff2016.top/opinion/2015/12/31/Summarize-2015.html</link>
-        <guid isPermaLink="true">http://xff2016.top/opinion/2015/12/31/Summarize-2015.html</guid>
+        <link>http://localhost:4000/opinion/2015/12/31/Summarize-2015.html</link>
+        <guid isPermaLink="true">http://localhost:4000/opinion/2015/12/31/Summarize-2015.html</guid>
         
         <category>随笔</category>
         
@@ -354,8 +447,8 @@ h1和h4指定带宽udp测试结果：
 
 </description>
         <pubDate>Fri, 31 Jul 2015 06:21:49 +0800</pubDate>
-        <link>http://xff2016.top/project/2015/07/31/Mininet-Tupo.html</link>
-        <guid isPermaLink="true">http://xff2016.top/project/2015/07/31/Mininet-Tupo.html</guid>
+        <link>http://localhost:4000/project/2015/07/31/Mininet-Tupo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2015/07/31/Mininet-Tupo.html</guid>
         
         <category>笔记</category>
         
@@ -469,8 +562,8 @@ h1和h4指定带宽udp测试结果：
 
 </description>
         <pubDate>Fri, 31 Jul 2015 00:00:00 +0800</pubDate>
-        <link>http://xff2016.top/opinion/2015/07/31/why.html</link>
-        <guid isPermaLink="true">http://xff2016.top/opinion/2015/07/31/why.html</guid>
+        <link>http://localhost:4000/opinion/2015/07/31/why.html</link>
+        <guid isPermaLink="true">http://localhost:4000/opinion/2015/07/31/why.html</guid>
         
         <category>随笔</category>
         
@@ -592,8 +685,8 @@ h1和h4指定带宽udp测试结果：
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 30 Jul 2015 00:00:00 +0800</pubDate>
-        <link>http://xff2016.top/opinion/2015/07/30/About-Me.html</link>
-        <guid isPermaLink="true">http://xff2016.top/opinion/2015/07/30/About-Me.html</guid>
+        <link>http://localhost:4000/opinion/2015/07/30/About-Me.html</link>
+        <guid isPermaLink="true">http://localhost:4000/opinion/2015/07/30/About-Me.html</guid>
         
         <category>随笔</category>
         
@@ -622,8 +715,8 @@ h1和h4指定带宽udp测试结果：
 
 </description>
         <pubDate>Mon, 09 Mar 2015 06:21:49 +0800</pubDate>
-        <link>http://xff2016.top/jekyll/update/2015/03/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://xff2016.top/jekyll/update/2015/03/09/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2015/03/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2015/03/09/welcome-to-jekyll.html</guid>
         
         <category>笔记</category>
         
@@ -631,53 +724,6 @@ h1和h4指定带宽udp测试结果：
         <category>Jekyll</category>
         
         <category>Update</category>
-        
-      </item>
-    
-      <item>
-        <title>OverAPI</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://overapi.com  (OverAPI - Collecting all the cheat sheets)&quot;&gt;OverAPI&lt;/a&gt;是一个从我自己的需求出发，搭建起来的项目。项目结构很简单，将常用语言的API很扁平的展现出来，方便翻阅和查找。&lt;/p&gt;
-
-&lt;p&gt;Chrome插件下载：&lt;a href=&quot;https://chrome.google.com/webstore/detail/oedodeocfdeegliepeeoieemhdgoijod?hl=zh-CN&quot; title=&quot;All Cheat Sheets&quot;&gt;All Cheat Sheets&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://overapi.com&quot; title=&quot;OverAPI - Collecting all the cheat sheets&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/images/overapi/overapi.jpg&quot; alt=&quot;OverAPI&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;生活在继续，遇到的人和事越来越繁杂，于是，满目的秋意、愉悦的欢叫，都像微风一样，带来的是美妙的简单。&lt;/p&gt;
-
-&lt;p&gt;我们总想拥有一切，可一切到底有多少，就像诺兰的处女作&lt;a href=&quot;http://movie.douban.com/subject/1397546/&quot; title=&quot;Following&quot;&gt;Following&lt;/a&gt;中表现的一样，一些物品只有在失去时才知道他存在过。&lt;/p&gt;
-
-&lt;p&gt;人生有目标才能前进，无论这个目标能否实现，OverAPI的目标是拥有一切，如果你有兴趣一起实现，可以联系我。&lt;/p&gt;
-
-&lt;p&gt;现在已经有：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/python/&quot;&gt;Python Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/jquery/&quot;&gt;jQuery Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/nodejs/&quot;&gt;NodeJS Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/php/&quot;&gt;PHP Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/ruby/&quot;&gt;Ruby Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/javascript/&quot;&gt;Javascript Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/actionscript/&quot;&gt;ActionScript Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/css/&quot;&gt;CSS Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/git/&quot;&gt;Git Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/svn/&quot;&gt;SVN Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/mysql/&quot;&gt;MySQL Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/regex/&quot;&gt;Regex Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/linux/&quot;&gt;Linux Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/html/&quot;&gt;HTML Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/html-dom/&quot;&gt;HTML-DOM Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://overapi.com/mod_rewrite/&quot;&gt;mod_rewrite Cheat Sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 04 Sep 2012 06:21:49 +0800</pubDate>
-        <link>http://xff2016.top/project/2012/09/04/overapi-cheatsheet.html</link>
-        <guid isPermaLink="true">http://xff2016.top/project/2012/09/04/overapi-cheatsheet.html</guid>
-        
-        <category>笔记</category>
-        
-        
-        <category>project</category>
         
       </item>
     
