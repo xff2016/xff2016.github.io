@@ -1,10 +1,3 @@
-
-<p align="center" >
-<a href="https://travis-ci.org/xff2016/xff2016.github.io"><img style="width:120px;heught:60px" src="https://travis-ci.org/xff2016/xff2016.github.io.svg?branch=master" /></a>
-<a href="https://github.com/xff2016/xff2016.github.io/issues#boards?notFullScreen=false&amp;repos=50039903&amp;showClosed=false" target="_blank" rel="external"><img style="width:120px;heught:60px" src="https://img.shields.io/github/issues/xff2016/xff2016.github.io.svg?maxAge=2592000" alt="GitHub Issues"></a>
-<a href="https://github.com/xff2016/xff2016.github.io/issues?q=is%3Aissue+is%3Aclosed" target="_blank" rel="external"><img  style="width:120px;heught:60px" src="https://img.shields.io/github/issues-closed-raw/xff2016/xff2016.github.io.svg?maxAge=2592000" alt=""></a>
-<img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"  style="width:120px;heught:60px">
-</p>
 # 3-Jekyll Theme
 
 新版 3-Jekyll，当前完成度 80%，预览请访问 [http://peiwen.lu](http://peiwen.lu)，[Github repo](https://github.com/P233/P233.github.io)。
